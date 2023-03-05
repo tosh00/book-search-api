@@ -1,0 +1,20 @@
+.rhenium-theme {
+  --primary: #E196C0;
+  --secondary: #E0F6D8;
+  --background: #242C42;
+  --accent: #FE4C43;
+}
+
+.jungle-theme {
+  --primary: #FEC6A9;
+  --secondary: #9B344C;
+  --background: #003926;
+  --accent: #569432;
+}
+
+.vivid-theme {
+  --primary: #FFFFFF;
+  --secondary: #C90000;
+  --background: #003046;
+  --accent: #496AB4;
+}

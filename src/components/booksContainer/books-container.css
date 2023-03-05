@@ -1,0 +1,6 @@
+.books-container{
+  width: max(50%, 767px);
+  margin: 0 auto;
+  background-color: var(--secondary);
+  padding: 2rem;
+}

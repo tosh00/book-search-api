@@ -1,0 +1,27 @@
+.book{
+  
+  margin-bottom: 2rem;
+  height: 7rem;
+  display: flex;
+  border: 2px solid black;
+}
+
+.book img{
+  max-height: 100%;
+}
+
+.book-info{
+  padding: 1rem;
+  line-height: 1.5rem;
+}
+.book .tags{
+  display: flex;
+  gap: .5rem
+}
+
+.book .genre-tag{
+  color: var(--secondary);
+  background-color: var(--accent);
+  padding: .2rem .5rem;
+  border-radius: .5rem;
+}
