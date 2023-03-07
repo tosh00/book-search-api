@@ -1,0 +1,51 @@
+.loader-container{
+  --delay: .1s;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+@keyframes dot-animation{
+  0%{
+    background-color: var(--background);
+  }
+  10%{
+    background-color: var(--background);
+  }
+  50%{
+    background-color: var(--accent);
+  }
+  90%{
+    background-color: var(--background);
+  }
+  100%{
+    background-color: var(--background);
+  }
+}
+
+
+.dot:nth-of-type(1){
+  animation-delay: calc(var(--delay)*1);
+}
+
+.dot:nth-of-type(2){
+  animation-delay: calc(var(--delay)*2);
+}
+.dot:nth-of-type(3){
+  animation-delay: calc(var(--delay)*3);
+}
+
+.dot{
+  --dot-size: 20px;
+  width: var(--dot-size);
+  height: var(--dot-size);
+  margin: .3rem;
+  border-radius: 100%;
+  animation-name: dot-animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  background-color: var(--background);
+}
+
+

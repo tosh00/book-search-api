@@ -1,5 +1,6 @@
 .App{
   background-color: var(--background);
   padding: 2rem;
-  color: var(--accent)
+  color: var(--accent);
+  min-height: 100vh;
 }
